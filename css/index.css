@@ -1,0 +1,11 @@
+.CommentBox{
+    border-style: inset;
+}
+
+.Problem{
+    border-style: groove;
+}
+
+.ProblemText{
+    color: aqua;
+}
