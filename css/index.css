@@ -19,13 +19,10 @@
 
 .Problem{
     margin: 3px;
+    margin-bottom: 20px;
     overflow: auto;
     word-break: normal;
     
-}
-
-.CommentButton{
-    margin: 7px 0px 0px 6px;
 }
 
 .CommentTable {
@@ -34,7 +31,7 @@
     -moz-box-shadow: 3px 7px 5px #424042;
     -webkit-box-shadow: 3px 7px 5px #424042;
     box-shadow: 3px 7px 5px #424042;
-   
+    background-color: #f1f0f0;
 }
 
 /*.Comment{
@@ -53,5 +50,4 @@
 
 .Response{
     margin: 20px 5px 5px 5px;
-
 }
