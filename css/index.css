@@ -1,6 +1,6 @@
 .CommentBox{
     border-style: outset;
-    margin: 1px 260px;
+    /*margin: 1px 260px;*/
     overflow: auto;
     border:groove 3px #000000;
     -moz-border-radius-topleft: 13px;

@@ -1,11 +1,15 @@
-let CommentTable= document.getElementsByClassName("CommentTable")
 
 function CreateNewComment(){
-    let NewComment = CommentTable.insertRow(0)
+    
+    let CommentTable= document.getElementsByClassName("CommentTable")
+    let NewComment = document.createElement("tr")
+    let UserImage = document.createElement("td")
+    let UserCommentText = document.createElement("td")
+    
+    NewComment.appendChild(UserImage)
+    NewComment.appendChild(UserCommentText)
 
-    let UserImage = NewComment.insertCell(0)
-    let UserCommentText = NewComment.insertCell(1)
-
+    CommentTable.appendChild(NewComment);
     UserImage.innerHTML = "Test image"
     UserCommentText.innerHTML = "Test text"
 }
