@@ -1,6 +1,6 @@
 .CommentBox{
     border-style: outset;
-    /*margin: 1px 260px;*/
+    margin: 1px 260px;
     overflow: auto;
     border:groove 3px #000000;
     -moz-border-radius-topleft: 13px;
@@ -25,7 +25,7 @@
     
 }
 
-.CommentTable {
+#CommentTable {
     border-collapse: collapse;
     margin: 10px 10px 0px 15px;
     -moz-box-shadow: 3px 7px 5px #424042;

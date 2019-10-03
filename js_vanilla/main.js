@@ -1,15 +1,20 @@
-
 function CreateNewComment(){
     
-    let CommentTable= document.getElementsByClassName("CommentTable")
-    let NewComment = document.createElement("tr")
-    let UserImage = document.createElement("td")
-    let UserCommentText = document.createElement("td")
+    let CommentTable = document.getElementById("CommentTable")
     
-    NewComment.appendChild(UserImage)
-    NewComment.appendChild(UserCommentText)
+    let NewComment = CommentTable.insertRow(-1)
+    NewComment.setAttribute("class", "Comment")
 
-    CommentTable.appendChild(NewComment);
-    UserImage.innerHTML = "Test image"
+    let UserCommentImage = NewComment.insertCell(0)
+    UserCommentImage.setAttribute("class", "ProfileCommentPic")
+    let img = document.createElement("img")
+    img.src = "aaa"
+    img.setAttribute("class", "ProfileCommentPic")
+    
+
+    let UserCommentText = NewComment.insertCell(1);
+    UserCommentText.setAttribute("class", "CommentText")
+    
+    UserCommentImage.innerHTML = img
     UserCommentText.innerHTML = "Test text"
 }
