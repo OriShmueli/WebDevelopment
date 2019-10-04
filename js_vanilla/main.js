@@ -17,7 +17,7 @@ function CreateNewComment(){
     let UserCommentText = document.createElement("td")
     UserCommentText.setAttribute("class", "CommentText")
     
-    let CommentText = document.getElementsByClassName("CommentText").
+    let CommentText = document.getElementsByClassName("CommentText")
 
     NewComment.appendChild(UserCommentImage)
     NewComment.appendChild(UserCommentText)
