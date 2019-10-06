@@ -7,19 +7,30 @@
 <body>
     <div id="LogIn">
         <form action="">
-            <p>enter your name: </p>
-            <input type="text" name="IN_USER_NAME">
+            <label for="email"><b>enter your name: </b></label>
+            <input type="text" name="IN_USER_NAME" required>
             <br>
-            <p>enter your password: </p>
-            <input type="text" name="IN_USER_PASSWORD">
+            <label for="psw"><b>enter your password: </b></label>
+            <input type="text" name="IN_USER_PASSWORD" required>
+            <br>
+            <input type="submit">
         </form>
     </div>
 
+    <br>
+    <br>
     <div id="SignUp">
         <form action="">
-            <input type="text" name="UP_USER_EMAIL">
-            <input type="text" name="UP_USER_NAME">
-            <input type="text" name="UP_USER_PASSWORD">
+            <label for="email"><b>enter your Email</b></label>
+            <input type="text" name="UP_USER_EMAIL" required>
+            <br>
+            <label for=""><b>choose a name</b></label>
+            <input type="text" name="UP_USER_NAME" required>
+            <br>
+            <label for=""><b>choose a password</b></label>
+            <input type="text" name="UP_USER_PASSWORD" required>
+            <br>
+            <input type="submit">
         </form>
     </div>
 

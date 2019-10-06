@@ -1,18 +1,3 @@
-#LogIn{
-    border-style: outset;
-    margin: 1px 260px;
-    overflow: auto;
-    border:groove 3px #000000;
-    -moz-border-radius-topleft: 13px;
-    -moz-border-radius-topright:13px;
-    -moz-border-radius-bottomleft:13px;
-    -moz-border-radius-bottomright:13px;
-    -webkit-border-top-left-radius:13px;
-    -webkit-border-top-right-radius:13px;
-    -webkit-border-bottom-left-radius:13px;
-    -webkit-border-bottom-right-radius:13px;
-    border-top-left-radius:13px;
-    border-top-right-radius:13px;
-    border-bottom-left-radius:13px;
-    border-bottom-right-radius:13px; 
-}
+/*#LogIn{
+   
+}*/

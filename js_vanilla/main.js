@@ -10,6 +10,7 @@ function CreateNewComment(){
     let NewComment = document.createElement("tr")
     NewComment.setAttribute("class", "Comment")
 
+    let UserCommentName = document.createElement("p")
     let UserCommentImage = document.createElement("td")
     
     let UserImg = document.createElement("img")
@@ -20,9 +21,6 @@ function CreateNewComment(){
     UserCommentText.setAttribute("class", "CommentText")
     
     let CommentText = document.getElementsByClassName("CommentText").value
-
-    
-    
     
     if(CommentText === "a"){
         alert("plz enter some thing to send an comment")
@@ -30,6 +28,7 @@ function CreateNewComment(){
     }
     else{
         UserCommentText.innerHTML = CommentText
+        UserCommentImage.appendChild(UserCommentName)
         UserCommentImage.appendChild(UserImg)
         NewComment.appendChild(UserCommentImage)
         NewComment.appendChild(UserCommentText)
