@@ -20,12 +20,7 @@ function CreateNewComment(){
     
     let CommentText = document.getElementsByClassName("CommentText").value
     
-    if(CommentText === "a"){
-        alert("plz enter some thing to send an comment")
-        return;
-    }
-    else
-    {
+    
         UserCommentText.innerHTML = CommentText
         UserCommentImage.appendChild(UserCommentName)
         UserCommentImage.appendChild(UserImg)
@@ -33,7 +28,7 @@ function CreateNewComment(){
         NewComment.appendChild(UserCommentText)
         CommentTable.appendChild(NewComment)
         CommentBox.appendChild(CommentTable)
-    }
+    
 }
 
 
