@@ -4,11 +4,11 @@ let commentSchema = new mongoose.Schema({
     /*userName: {
         type: String
     },*/
-    UserComment: String
-    /*date: {
+    UserComment: String,
+    date: {
         type: Date,
         default: Date.now 
-    }*/
+    }
 })
 
 const commentS = mongoose.model('Comment', commentSchema)
